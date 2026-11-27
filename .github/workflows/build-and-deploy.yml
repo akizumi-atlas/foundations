@@ -19,7 +19,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            texlive-latex-extra texlive-pictures texlive-fonts-extra \
+            texlive-latex-extra texlive-pictures texlive-fonts-extra texlive-science \
             lmodern poppler-utils aspell aspell-en
 
       - name: Install Pandoc 3.1.3
